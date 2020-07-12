@@ -9,6 +9,7 @@
 
 @import 'wrapper';
 @import 'main';
+@import 'header';
 
 menu-header {
     position: fixed;
@@ -32,7 +33,7 @@ menu-main {
             padding: 0.4rem;
 
             &:hover {
-                color: $secodary-color;
+                color: $colour-1;
                 @include easeOut();
             }
         }

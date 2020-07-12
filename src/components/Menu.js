@@ -24,7 +24,7 @@ export class Menu extends Component {
                     <div className="portrait"></div>
                 </div>
                 <ul className={this.state.isOpen?"menu-nav show" : "menu-nav"}>
-                    <li className={this.state.isOpen?"nav-item show" : "nav-item"}>
+                    <li className={this.state.isOpen?"nav-item current show" : "nav-item "}>
                         <Link 
                         className="nav-link"
                         to='/'>
@@ -34,22 +34,15 @@ export class Menu extends Component {
                     <li className={this.state.isOpen?"nav-item show" : "nav-item"}>
                         <Link 
                         className="nav-link"
+                        to='/focast'>
+                            Focast 
+                        </Link>
+                    </li>
+                    <li className={this.state.isOpen?"nav-item show" : "nav-item"}>
+                        <Link 
+                        className="nav-link"
                         to='/about'>
-                            About Me
-                        </Link>
-                    </li>
-                    <li className={this.state.isOpen?"nav-item show" : "nav-item"}>
-                        <Link 
-                        className="nav-link"
-                        to='/projects'>
-                            My Projects
-                        </Link>
-                    </li>
-                    <li className={this.state.isOpen?"nav-item show" : "nav-item"}>
-                        <Link 
-                        className="nav-link"
-                        to='/contact'>
-                            How to Reach Me
+                            Dayne.io
                         </Link>
                     </li>
                 </ul>
