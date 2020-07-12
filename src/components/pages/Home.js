@@ -1,9 +1,10 @@
 import React from 'react';
 
-function Home() {
+
+const  Home = () => {
     return (
         <div>
-            home app
+            Hompage
         </div>
     )
 }

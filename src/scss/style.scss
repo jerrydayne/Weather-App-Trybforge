@@ -10,6 +10,12 @@
 @import 'wrapper';
 @import 'main';
 @import 'header';
+@import 'weather-search';
+@import 'weather-data';
+@import 'error';
+@import 'date-time';
+@import 'salutation';
+@import 'footer';
 
 menu-header {
     position: fixed;

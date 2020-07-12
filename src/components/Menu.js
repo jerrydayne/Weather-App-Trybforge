@@ -24,21 +24,21 @@ export class Menu extends Component {
                     <div className="portrait"></div>
                 </div>
                 <ul className={this.state.isOpen?"menu-nav show" : "menu-nav"}>
-                    <li className={this.state.isOpen?"nav-item current show" : "nav-item "}>
+                    <li className={this.state.isOpen?"nav-item current show" : "nav-item"} onClick={this.handleToggle} >
                         <Link 
                         className="nav-link"
                         to='/'>
                             Home
                         </Link>
                     </li>
-                    <li className={this.state.isOpen?"nav-item show" : "nav-item"}>
+                    <li className={this.state.isOpen?"nav-item show" : "nav-item"} onClick={this.handleToggle} >
                         <Link 
                         className="nav-link"
-                        to='/focast'>
-                            Focast 
+                        to='/finder'>
+                            Weather Finder 
                         </Link>
                     </li>
-                    <li className={this.state.isOpen?"nav-item show" : "nav-item"}>
+                    <li className={this.state.isOpen?"nav-item show" : "nav-item"} onClick={this.handleToggle} >
                         <Link 
                         className="nav-link"
                         to='/about'>
